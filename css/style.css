@@ -1,0 +1,151 @@
+/*font-family: 'Playfair Display', serif;
+	font-family: 'Ubuntu', sans-serif;;
+*/
+.big-img-adaptive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: 1320px;
+}
+.small-img-adaptive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: 420px;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: #8c8c8c;
+	font-family: 'Ubuntu', sans-serif;
+}
+a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+h2{
+	font-size: 30px;
+	margin-top: 30px;
+	color: #626262;
+}
+p{
+	margin-top: 35px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	color: #626262;
+}
+/********************HEADER*******************************/
+header{
+	height: 165px;
+}
+header div.logo a img{
+	display: block;
+	margin-top: 70px;
+	margin-left: 70px;
+}
+header nav ul{
+	display: block;
+	font-size: 14px;
+	font-family: 'Ubuntu', serif;
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-top: 75px;
+	margin-left: 70px;
+	display: flex;
+	justify-content: right;
+}
+header nav ul li{
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+}
+header nav ul li a{
+	color: #8c8c8c;
+	text-decoration: none;
+}
+/********************BLOCK-1*******************************/
+
+article div.homepage, div.fourth_row{
+	padding: 150px 80px 0 150px;
+}
+
+/********************BLOCK-2*******************************/
+
+div.first_col{
+	padding-right: 30px;
+}
+div.second_col{
+	padding-left: 30px;
+}
+div.first_row{
+	margin-top: 135px;
+}
+div.first_row img{
+	margin-bottom: 30px;
+}
+/********************BLOCK-3*******************************/
+
+div.second_row{
+	margin-top: 135px;
+}
+div.second_row img{
+	margin-bottom: 30px;
+}
+div.second_row p{
+	margin-bottom: 120px;
+}
+/********************BLOCK-4*******************************/
+div.third_row{
+	background-color: #f0f0f0;
+	height: 290px;
+}
+div.third_row span{
+	display: block;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+div.third_row form{
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+	border-bottom: 1px solid #000;
+	width: 370px;
+}
+div.third_row form input{
+	margin-bottom: 5px;
+	background: inherit;
+	border: none;
+	width: 321px;
+}
+div.third_row form button{
+	margin-bottom: 5px;
+	background: inherit;
+	border: none;
+
+}
+/********************BLOCK-4*******************************/
+div.fourth_row img{
+	margin-bottom: 30px;
+}
+/********************BLOCK-4*******************************/
+div.loadmore{
+	text-align: center;
+}
+div.loadmore a{
+	display: block;
+	margin: 160px auto;
+	border: 1px solid #000;
+	padding: 20px;
+	font-size: 20px;
+	max-width: 160px;
+	text-transform: none;
+
+}

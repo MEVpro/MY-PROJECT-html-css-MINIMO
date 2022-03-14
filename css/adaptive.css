@@ -1,0 +1,47 @@
+
+
+
+@media (min-width: 459.98px) and (max-width: 991.98px){
+		/********************HEADER*******************************/
+		header div.logo a img{
+			display: block;
+			margin: 70px auto;
+		}
+		/********************BLOCK-1*******************************/
+		article div.homepage, div.fourth_row{
+			padding: 30px 20px 0 30px;
+		}
+		/********************BLOCK-2*******************************/
+		div.first_col{
+			padding-right: 15px;
+		}
+		div.second_col{
+			padding-left: 15px;
+		}
+		div.first_row{
+			margin-top: 70px;
+		}
+		div.first_row img{
+			margin-bottom: 30px;
+		}
+		/********************BLOCK-3*******************************/
+
+		div.second_row{
+			margin-top: 70px;
+		}
+		div.second_row img{
+			margin-bottom: 30px;
+		}
+		div.second_row p{
+			margin-bottom: 50px;
+		}
+		/********************BLOCK-4*******************************/
+
+		/********************BLOCK-4*******************************/
+
+		/********************BLOCK-4*******************************/
+		div.loadmore a{
+			margin: 50px auto;
+		}
+	}
+
